@@ -1,0 +1,12 @@
+V	251008121858Z		0176	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=the subsubca CA
+V	251018184820Z		0177	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=subsubca client
+V	251018184823Z		0178	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=subsubca client with md5 hash
+V	251018184823Z		0179	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=subsubca client with sha224 hash
+V	251018184823Z		017A	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=subsubca client with sha256 hash
+V	251018184824Z		017B	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=subsubca client with sha384 hash
+V	251018184824Z		017C	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=subsubca client with sha512 hash
+V	251018184824Z		017D	unknown	/C=UG/L=Tropic/O=Utopia/OU=Chilling/CN=subsubca client with bad DN
+V	251018184825Z		017E	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=subsubca client future
+V	120208184825Z		017F	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=subsubca client expired
+R	251018184825Z	120209184826Z	0180	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=subsubca client revoked
+V	251018184826Z		0181	unknown	/C=UG/L=Tropic/O=http://slash.slash.edu:7656/testing/OU=Relaxation/CN=subsubca client slash

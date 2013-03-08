@@ -1,0 +1,59 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 408 (0x198)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=UG, L=Tropic, O=Utopia, OU=Relaxation, CN=the trusted CA
+        Validity
+            Not Before: Feb  9 18:47:47 2012 GMT
+            Not After : Feb  8 18:47:47 2012 GMT
+        Subject: C=UG, L=Tropic, O=Utopia, OU=Relaxation, CN=trusted clientserver expired
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:d5:47:70:1f:7d:3d:11:44:be:c5:53:ef:00:ba:
+                    5f:83:c4:bb:08:37:b2:4f:df:29:06:e8:5e:9d:d2:
+                    aa:fa:45:de:a9:90:ce:13:c3:33:2e:10:cd:d3:07:
+                    23:89:28:29:63:af:2a:2b:6b:d5:4a:cd:ba:4a:71:
+                    d0:7b:68:c7:f5:18:12:d1:d5:5d:1b:82:f9:20:d9:
+                    90:24:85:66:8e:fb:d7:14:d9:f5:aa:7e:a8:f3:30:
+                    64:1f:a6:91:96:91:5d:55:9d:99:67:20:ed:18:e4:
+                    e5:c1:bf:a9:3f:57:31:96:62:c8:32:9f:a1:22:5d:
+                    c0:86:5a:98:77:51:f2:b8:81
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment
+            Netscape Cert Type: 
+                SSL Client, SSL Server, S/MIME
+            Netscape Comment: 
+                OpenSSL Generated Client Server Certificate
+    Signature Algorithm: sha1WithRSAEncryption
+        9b:42:b4:dd:84:9d:ce:5f:d2:0f:00:21:24:58:3d:cb:e3:6f:
+        ef:1d:55:26:2a:9a:98:e2:06:c6:b4:f9:dd:70:23:05:a0:cf:
+        35:8c:23:01:68:69:29:c2:f2:3f:f3:29:a2:5e:58:ae:1a:de:
+        09:6e:24:d8:55:ee:d9:a4:31:c3:36:e6:43:dc:5a:ec:83:d9:
+        e1:eb:04:81:d2:db:f1:57:19:8c:5a:55:a4:d4:72:e6:f7:ab:
+        cd:90:e3:0a:f8:8d:9c:7c:4d:3b:ac:21:d2:54:4c:eb:02:5a:
+        bd:47:25:ae:62:16:55:ee:08:dc:62:4b:6c:57:8f:f0:2a:11:
+        a4:83
+-----BEGIN CERTIFICATE-----
+MIICqzCCAhSgAwIBAgICAZgwDQYJKoZIhvcNAQEFBQAwXTELMAkGA1UEBhMCVUcx
+DzANBgNVBAcTBlRyb3BpYzEPMA0GA1UEChMGVXRvcGlhMRMwEQYDVQQLEwpSZWxh
+eGF0aW9uMRcwFQYDVQQDEw50aGUgdHJ1c3RlZCBDQTAeFw0xMjAyMDkxODQ3NDda
+Fw0xMjAyMDgxODQ3NDdaMGsxCzAJBgNVBAYTAlVHMQ8wDQYDVQQHEwZUcm9waWMx
+DzANBgNVBAoTBlV0b3BpYTETMBEGA1UECxMKUmVsYXhhdGlvbjElMCMGA1UEAxMc
+dHJ1c3RlZCBjbGllbnRzZXJ2ZXIgZXhwaXJlZDCBnzANBgkqhkiG9w0BAQEFAAOB
+jQAwgYkCgYEA1UdwH309EUS+xVPvALpfg8S7CDeyT98pBuhendKq+kXeqZDOE8Mz
+LhDN0wcjiSgpY68qK2vVSs26SnHQe2jH9RgS0dVdG4L5INmQJIVmjvvXFNn1qn6o
+8zBkH6aRlpFdVZ2ZZyDtGOTlwb+pP1cxlmLIMp+hIl3AhlqYd1HyuIECAwEAAaNs
+MGowCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBeAwEQYJYIZIAYb4QgEBBAQDAgXg
+MDoGCWCGSAGG+EIBDQQtFitPcGVuU1NMIEdlbmVyYXRlZCBDbGllbnQgU2VydmVy
+IENlcnRpZmljYXRlMA0GCSqGSIb3DQEBBQUAA4GBAJtCtN2Enc5f0g8AISRYPcvj
+b+8dVSYqmpjiBsa0+d1wIwWgzzWMIwFoaSnC8j/zKaJeWK4a3gluJNhV7tmkMcM2
+5kPcWuyD2eHrBIHS2/FXGYxaVaTUcub3q82Q4wr4jZx8TTusIdJUTOsCWr1HJa5i
+FlXuCNxiS2xXj/AqEaSD
+-----END CERTIFICATE-----

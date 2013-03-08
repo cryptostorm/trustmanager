@@ -1,0 +1,41 @@
+V	251018184727Z		0176	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client
+V	251018184730Z		0177	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client with md5 hash
+V	251018184730Z		0178	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client with sha224 hash
+V	251018184731Z		0179	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client with sha256 hash
+V	251018184731Z		017A	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client with sha384 hash
+V	251018184731Z		017B	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client with sha512 hash
+V	251018184732Z		017C	unknown	/C=UG/L=Tropic/O=Utopia/OU=Chilling/CN=trusted client with bad DN
+V	251018184732Z		017D	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client future
+V	120208184732Z		017E	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client expired
+R	251018184733Z	120209184733Z	017F	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client revoked
+V	251018184733Z		0180	unknown	/C=UG/L=Tropic/O=http://slash.slash.edu:7656/testing/OU=Relaxation/CN=trusted client slash
+V	251018184733Z		0181	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client serial/serialNumber=12341
+V	251018184733Z		0182	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client email/emailAddress=john.doe@foo.bar
+V	251018184734Z		0183	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted client UID/UID=haahaa
+V	251018184734Z		0184	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted flag client
+V	251018184735Z		0185	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted bigclient
+V	251018184744Z		0186	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted very big client
+V	251018184744Z		0187	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted server
+V	251018184745Z		0188	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=pchip10.cern.ch
+R	251018184745Z	120209184745Z	0189	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=CN=revoked, pchip10.cern.ch
+V	120208184745Z		018A	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=pchip10.cern.ch, emailAddress=expired@expired.foo
+V	251018184745Z		018B	unknown	/C=UG/L=Tropic/O=Utopia/OU=Chilling/CN=pchip10.cern.ch
+V	251018184745Z		018C	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=pchip10.cern.ch/emailAddress=john.doe@foo.bar
+V	251018184745Z		018D	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted/xxx.foo.bar
+V	251018184745Z		018E	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted altname/CN=xxx.foo.bar
+V	251018184745Z		018F	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted hostname only in altname
+V	251018184745Z		0190	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted altname cont hostname/CN=pchip10.cern.ch
+V	251018184745Z		0191	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted altname but no hostname anywhere
+V	251018184745Z		0192	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted altname without hosname/CN=pchip10.cern.ch
+V	251018184746Z		0193	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=xxx2.foo.bar
+V	251018184746Z		0194	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted clientserver
+V	251018184746Z		0195	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted none
+V	120208184746Z		0196	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted flag client expired
+V	120208184747Z		0197	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted flag server expired
+V	120208184747Z		0198	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted clientserver expired
+V	120208184747Z		0199	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted none expired
+R	251018184747Z	120209184747Z	019A	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted flag client revoked
+R	251018184747Z	120209184748Z	019B	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted server revoked
+R	251018184748Z	120209184748Z	019C	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted clientserver revoked
+R	251018184748Z	120209184748Z	019D	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=trusted none revoked
+V	251018184748Z		019E	unknown	/C=UG/L=Tropic/O=Utopia/OU=Relaxation/CN=hahkala

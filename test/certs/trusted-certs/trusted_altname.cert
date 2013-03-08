@@ -1,0 +1,62 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 397 (0x18d)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=UG, L=Tropic, O=Utopia, OU=Relaxation, CN=the trusted CA
+        Validity
+            Not Before: Feb  9 18:47:45 2012 GMT
+            Not After : Oct 18 18:47:45 2025 GMT
+        Subject: C=UG, L=Tropic, O=Utopia, OU=Relaxation, CN=trusted/xxx.foo.bar
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:df:57:f0:b4:8f:13:07:7f:80:0f:e4:09:65:9d:
+                    d0:cb:3d:ad:d9:a7:9f:1a:92:f3:7d:d3:b7:69:c1:
+                    a3:2e:87:5c:03:09:7e:fb:eb:4c:06:31:bf:e4:7f:
+                    b8:3f:68:d9:8b:79:d8:91:8b:ae:a3:a7:13:64:fa:
+                    9d:dd:ef:95:e2:20:c0:e0:52:01:d2:b9:72:ff:50:
+                    53:05:3d:a1:70:e7:b9:ce:ee:08:bb:c8:a3:4d:39:
+                    ec:26:0e:a2:f9:43:88:0a:95:cf:6a:89:b4:8d:11:
+                    51:4c:27:04:e9:ed:87:84:b7:6f:20:be:cc:8c:a3:
+                    79:08:80:22:ad:16:62:05:55
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment
+            Netscape Cert Type: 
+                SSL Server
+            Netscape Comment: 
+                OpenSSL Generated Server Certificate
+            X509v3 Subject Alternative Name: 
+                DNS:*.hoo.org, DNS:joo.haa.org, IP Address:123.124.220.1, DNS:g*a.e*.com
+    Signature Algorithm: sha1WithRSAEncryption
+        84:a3:9f:3c:1a:4d:0f:b3:df:6b:7c:6f:9c:a3:0a:e2:96:63:
+        6e:05:4f:5e:53:fc:35:e8:50:29:8c:7d:23:4a:89:29:ee:87:
+        6c:a1:40:60:bd:67:b6:77:db:4f:f6:ce:03:87:9f:51:ed:bd:
+        59:55:39:e3:85:e6:89:00:9f:98:f9:d4:b8:13:99:ec:f9:64:
+        e2:ae:31:be:a2:d2:dd:64:b8:b7:b4:bb:39:8b:62:ef:f1:5f:
+        7c:bd:3a:3e:ae:00:d2:17:50:c7:d0:5f:b4:8e:57:e4:ed:4c:
+        34:97:96:d4:58:a7:f1:69:cf:50:83:17:05:02:ca:e5:58:75:
+        0b:43
+-----BEGIN CERTIFICATE-----
+MIIC0jCCAjugAwIBAgICAY0wDQYJKoZIhvcNAQEFBQAwXTELMAkGA1UEBhMCVUcx
+DzANBgNVBAcTBlRyb3BpYzEPMA0GA1UEChMGVXRvcGlhMRMwEQYDVQQLEwpSZWxh
+eGF0aW9uMRcwFQYDVQQDEw50aGUgdHJ1c3RlZCBDQTAeFw0xMjAyMDkxODQ3NDVa
+Fw0yNTEwMTgxODQ3NDVaMGIxCzAJBgNVBAYTAlVHMQ8wDQYDVQQHEwZUcm9waWMx
+DzANBgNVBAoTBlV0b3BpYTETMBEGA1UECxMKUmVsYXhhdGlvbjEcMBoGA1UEAxMT
+dHJ1c3RlZC94eHguZm9vLmJhcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA
+31fwtI8TB3+AD+QJZZ3Qyz2t2aefGpLzfdO3acGjLodcAwl+++tMBjG/5H+4P2jZ
+i3nYkYuuo6cTZPqd3e+V4iDA4FIB0rly/1BTBT2hcOe5zu4Iu8ijTTnsJg6i+UOI
+CpXPaom0jRFRTCcE6e2HhLdvIL7MjKN5CIAirRZiBVUCAwEAAaOBmzCBmDAJBgNV
+HRMEAjAAMA4GA1UdDwEB/wQEAwIF4DARBglghkgBhvhCAQEEBAMCBkAwMwYJYIZI
+AYb4QgENBCYWJE9wZW5TU0wgR2VuZXJhdGVkIFNlcnZlciBDZXJ0aWZpY2F0ZTAz
+BgNVHREELDAqggkqLmhvby5vcmeCC2pvby5oYWEub3JnhwR7fNwBggpnKmEuZSou
+Y29tMA0GCSqGSIb3DQEBBQUAA4GBAISjnzwaTQ+z32t8b5yjCuKWY24FT15T/DXo
+UCmMfSNKiSnuh2yhQGC9Z7Z320/2zgOHn1HtvVlVOeOF5okAn5j51LgTmez5ZOKu
+Mb6i0t1kuLe0uzmLYu/xX3y9Oj6uANIXUMfQX7SOV+TtTDSXltRYp/Fpz1CDFwUC
+yuVYdQtD
+-----END CERTIFICATE-----

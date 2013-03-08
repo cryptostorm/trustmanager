@@ -1,0 +1,57 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 410 (0x19a)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=UG, L=Tropic, O=Utopia, OU=Relaxation, CN=the trusted CA
+        Validity
+            Not Before: Feb  9 18:47:47 2012 GMT
+            Not After : Oct 18 18:47:47 2025 GMT
+        Subject: C=UG, L=Tropic, O=Utopia, OU=Relaxation, CN=trusted flag client revoked
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:e1:14:ea:18:cb:cb:3e:ed:2d:6b:19:89:4c:95:
+                    6f:80:85:c8:cb:e2:be:1e:cf:d3:f8:8a:23:2b:25:
+                    94:92:07:86:93:19:aa:3d:9e:01:56:b6:3e:70:c0:
+                    c0:46:fc:20:18:3c:e7:75:d7:00:9d:86:d4:63:e3:
+                    cd:24:3e:be:84:56:8f:55:bf:08:91:f1:02:00:a0:
+                    09:21:2a:1a:bf:0f:ab:8d:f6:b4:53:50:1a:4f:54:
+                    a5:98:50:2c:6f:db:f8:5c:7f:ba:61:42:f6:54:43:
+                    14:ab:e9:13:cf:d7:b8:0a:ba:53:ae:45:b3:af:1d:
+                    da:d8:36:36:d3:3b:86:8b:e7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: critical
+                Digital Signature, Non Repudiation, Key Encipherment
+            Netscape Comment: 
+                OpenSSL Generated Client Certificate with key usage
+    Signature Algorithm: sha1WithRSAEncryption
+        9d:89:41:67:98:e3:32:f2:14:c3:aa:81:9e:8c:1e:21:a0:44:
+        cb:ad:9d:20:0b:87:86:02:5b:32:cb:01:67:87:5c:5c:31:23:
+        85:7f:44:59:9e:8c:bd:a4:12:64:94:c4:18:6e:3d:53:bf:e5:
+        a5:6e:5d:b5:4a:52:40:97:76:ba:41:d3:37:aa:39:17:a7:0c:
+        1a:cf:58:4e:03:13:1f:63:b9:b8:82:f7:01:3c:a9:28:e9:0a:
+        80:94:6c:8d:ac:d8:c2:f9:4c:1d:e1:52:06:a0:88:36:79:f5:
+        0a:ae:5a:a4:93:9c:db:9f:50:ae:ec:3b:25:87:0c:5a:46:52:
+        97:48
+-----BEGIN CERTIFICATE-----
+MIICnzCCAgigAwIBAgICAZowDQYJKoZIhvcNAQEFBQAwXTELMAkGA1UEBhMCVUcx
+DzANBgNVBAcTBlRyb3BpYzEPMA0GA1UEChMGVXRvcGlhMRMwEQYDVQQLEwpSZWxh
+eGF0aW9uMRcwFQYDVQQDEw50aGUgdHJ1c3RlZCBDQTAeFw0xMjAyMDkxODQ3NDda
+Fw0yNTEwMTgxODQ3NDdaMGoxCzAJBgNVBAYTAlVHMQ8wDQYDVQQHEwZUcm9waWMx
+DzANBgNVBAoTBlV0b3BpYTETMBEGA1UECxMKUmVsYXhhdGlvbjEkMCIGA1UEAxMb
+dHJ1c3RlZCBmbGFnIGNsaWVudCByZXZva2VkMIGfMA0GCSqGSIb3DQEBAQUAA4GN
+ADCBiQKBgQDhFOoYy8s+7S1rGYlMlW+AhcjL4r4ez9P4iiMrJZSSB4aTGao9ngFW
+tj5wwMBG/CAYPOd11wCdhtRj480kPr6EVo9VvwiR8QIAoAkhKhq/D6uN9rRTUBpP
+VKWYUCxv2/hcf7phQvZUQxSr6RPP17gKulOuRbOvHdrYNjbTO4aL5wIDAQABo2Ew
+XzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIF4DBCBglghkgBhvhCAQ0ENRYzT3Bl
+blNTTCBHZW5lcmF0ZWQgQ2xpZW50IENlcnRpZmljYXRlIHdpdGgga2V5IHVzYWdl
+MA0GCSqGSIb3DQEBBQUAA4GBAJ2JQWeY4zLyFMOqgZ6MHiGgRMutnSALh4YCWzLL
+AWeHXFwxI4V/RFmejL2kEmSUxBhuPVO/5aVuXbVKUkCXdrpB0zeqORenDBrPWE4D
+Ex9jubiC9wE8qSjpCoCUbI2s2ML5TB3hUgagiDZ59QquWqSTnNufUK7sOyWHDFpG
+UpdI
+-----END CERTIFICATE-----
