@@ -335,7 +335,7 @@ public class DNImplRFC2253 implements DN {
         
         buf.append(rdnSymbol);
         buf.append('=');
-        buf.append(m_rdns[n]);
+        buf.append(escapeIllegalRDNChars(m_rdns[n]));
     }
 
     /**
@@ -524,6 +524,35 @@ public class DNImplRFC2253 implements DN {
             return true;
         }
         return false;
+    }
+
+    /**
+     * Escapes the chars that need escaping according to RFC2253.
+     * 
+     * @param input
+     * @return the string with the characters that need escaping escaped.
+     */
+    private String escapeIllegalRDNChars(String input) {
+        String output = input;
+        // check if there is something to change
+        if (output.matches(".*[\\,\\+\"\\\\<>;]+.*")) {
+            output = output.replaceAll("\\\\", "\\\\\\\\");
+            output = output.replaceAll(",", "\\\\,");
+            output = output.replaceAll("\\+", "\\\\+");
+            output = output.replaceAll("\"", "\\\\\"");
+            output = output.replaceAll("<", "\\\\<");
+            output = output.replaceAll(">", "\\\\>");
+            output = output.replaceAll(";", "\\\\;");
+        }
+
+        if(output.startsWith(" ")){
+            output = "\\" + output;
+        }
+        if(output.endsWith(" ")){
+            output = output.substring(0, input.length() - 2) + "\\ ";
+        }
+        
+        return output;
     }
 
 }

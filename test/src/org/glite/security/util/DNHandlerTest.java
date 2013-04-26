@@ -18,6 +18,7 @@
 package org.glite.security.util;
 
 import java.security.Principal;
+import java.util.Vector;
 
 import javax.management.remote.JMXPrincipal;
 
@@ -189,10 +190,10 @@ public class DNHandlerTest extends TestBase {
                 " CN=First Middle Last , OU=OrgUnit , O=Org , C=ZZ ").getRFCDN());
         assertEquals(DNHandler.getDN("CN=First Middle Last,OU=OrgUnit,O=Org,C=ZZ"), DNHandler
                 .getDN(" CN=First Middle Last , OU=OrgUnit , O=Org , C=ZZ "));
-        assertEquals("CN=Robert ,Bob, Hacker,O=Org", DNHandler.getDN("CN=Robert \",Bob,\" Hacker,O=Org").getRFC2253());
+        assertEquals("CN=Robert \\,Bob\\, Hacker,O=Org", DNHandler.getDN("CN=Robert \",Bob,\" Hacker,O=Org").getRFC2253());
         assertEquals(DNHandler.getDN("CN=Robert \",Bob,\" Hacker,O=Org"), DNHandler
                 .getDN("CN=Robert \",Bob,\" Hacker,O=Org"));
-        assertEquals("CN=L. Eagle,O=Sue, Grabbit and Runn,C=GB", DNHandler.getDN(
+        assertEquals("CN=L. Eagle,O=Sue\\, Grabbit and Runn,C=GB", DNHandler.getDN(
                 "CN=L. Eagle\\ ,O=Sue\\, Grabbit and Runn,C=GB").getRFC2253());
         assertEquals(DNHandler.getDN("CN=L. Eagle\\ ,O=Sue\\, Grabbit and Runn,C=GB"), DNHandler
                 .getDN("CN=L. Eagle\\ ,O=Sue\\, Grabbit and Runn,C=GB"));
@@ -226,10 +227,10 @@ public class DNHandlerTest extends TestBase {
                 " CN=First Middle Last , OU=OrgUnit , O=Org , C=ZZ ").getRFC2253());
         assertEquals(DNHandler.getDN("CN=First Middle Last,OU=OrgUnit,O=Org,C=ZZ"), DNHandler
                 .getDN(" CN=First Middle Last , OU=OrgUnit , O=Org , C=ZZ "));
-        assertEquals("CN=Robert ,Bob, Hacker,O=Org", DNHandler.getDN("CN=Robert \",Bob,\" Hacker,O=Org").getRFC2253());
+        assertEquals("CN=Robert \\,Bob\\, Hacker,O=Org", DNHandler.getDN("CN=Robert \",Bob,\" Hacker,O=Org").getRFC2253());
         assertEquals(DNHandler.getDN("CN=Robert \",Bob,\" Hacker,O=Org"), DNHandler
                 .getDN("CN=Robert \",Bob,\" Hacker,O=Org"));
-        assertEquals("CN=L. Eagle,O=Sue, Grabbit and Runn,C=GB", DNHandler.getDN(
+        assertEquals("CN=L. Eagle,O=Sue\\, Grabbit and Runn,C=GB", DNHandler.getDN(
                 "CN=L. Eagle\\ ,O=Sue\\, Grabbit and Runn,C=GB").getRFC2253());
         assertEquals(DNHandler.getDN("CN=L. Eagle\\ ,O=Sue\\, Grabbit and Runn,C=GB"), DNHandler
                 .getDN("CN=L. Eagle\\ ,O=Sue\\, Grabbit and Runn,C=GB"));
@@ -294,6 +295,16 @@ public class DNHandlerTest extends TestBase {
     	assertEquals(dn5.getRFCDN(),"CN=cas/aaa-test.cnaf.infn.it,L=Bologna,OU=cas server,O=INFN");
     	
     }
+
+    public void testDNsWithEscapedChars(){
+        X509Principal x509Principal = new X509Principal(true, "CN=\\ test\\, test,L=Bologna,OU=cas server,O=INFN");
+        Vector<String> iterat = x509Principal.getValues();
+        assertEquals(" test, test", iterat.get(3));
+        DN testDN = DNHandler.getDNRFC2253("CN=\\ test\\, test,L=Bologna,OU=cas server,O=INFN");
+        assertEquals("CN=\\ test\\, test,L=Bologna,OU=cas server,O=INFN", testDN.getRFCDN());
+        
+    }
+
 
     /**
      * Placeholder for equals testing, done in DNTest already.
